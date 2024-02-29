@@ -1,16 +1,17 @@
 {
   "name": "sockets",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple chat application using Express and Socket.io",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
-    "moment": "^2.10.6",
-    "socket.io": "^1.3.7"
+    "express": "4.18.3",
+    "moment": "2.30.1",
+    "socket.io": "4.7.4"
   }
 }
